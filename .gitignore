@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Temporary presentation output
+presentation_assets/
+render_check*/
+
+# Generated tuning checkpoints
+artifacts/tuning/
+artifacts/advanced_tuning/
+
+# Logs
+*.log

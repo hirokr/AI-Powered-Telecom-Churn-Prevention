@@ -1,0 +1,40 @@
+{
+  "model": "engineered_lightgbm_and_categorical_ensemble",
+  "weights": {
+    "engineered_lightgbm": 0.65,
+    "categorical_ensemble": 0.35
+  },
+  "lightgbm_best_iteration": 832,
+  "engineered_feature_count": 132,
+  "selection_metric": "validation ROC-AUC",
+  "validation_metrics_at_0_5": {
+    "roc_auc": 0.7079970582973425,
+    "pr_auc": 0.6969007153084014,
+    "accuracy": 0.6474,
+    "precision": 0.6417318933914594,
+    "recall": 0.653384444668617,
+    "f1": 0.6475057482755173
+  },
+  "decision_threshold": 0.32999999999999996,
+  "test_metrics_at_0_5": {
+    "roc_auc": 0.702022634632826,
+    "pr_auc": 0.6946938052292635,
+    "accuracy": 0.64275,
+    "precision": 0.637675390586128,
+    "recall": 0.6464891041162227,
+    "f1": 0.6420520014027353
+  },
+  "test_metrics_at_selected_threshold": {
+    "roc_auc": 0.702022634632826,
+    "pr_auc": 0.6946938052292635,
+    "accuracy": 0.5925,
+    "precision": 0.5538179596823457,
+    "recall": 0.9146489104116223,
+    "f1": 0.689901833954798
+  },
+  "split_rows": {
+    "train": 60000,
+    "validation": 20000,
+    "test": 20000
+  }
+}
