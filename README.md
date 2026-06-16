@@ -40,7 +40,6 @@ reviews, or proactive service recovery.
 ## Repository Structure
 
 ```text
-.
 ├── telecom/
 │   ├── Client.csv
 │   └── Record.csv
